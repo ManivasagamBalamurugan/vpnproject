@@ -1,0 +1,91 @@
+
+.loginpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    margin: 10px 0;
+    font-size: 30px;
+    padding: 5px 0;
+    font-weight: bold;
+}
+.logincontainer{
+    margin: 10px 0;
+    padding: 20px;
+    border:1px solid black;
+    border-radius:5px;
+    width: 300px;
+}
+.signin{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.inputbox{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.inputbox lable{
+    font-weight: bold;
+    display: flex;
+    justify-content:space-between;
+}
+.inputbox{
+    padding: 5px 0;
+}
+.signinbtn input{
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(252, 242, 215);
+}
+.privacynotes keep signed{
+    margin: 10px 0;
+}
+.newtext{
+    margin: 20px 0 10px 0;
+    font-size: 14px;
+    color:rgb(154, 146, 146);
+    background-color: rgb(243, 240, 240);
+    text-align: center;
+    height: 1px;
+}
+.newtext span{
+    position:relative;
+    top: -7px;
+    background-color:white;
+    padding:0 5px;
+}
+.createbtn{
+    margin-top: 10px;
+}
+.createbtn input{
+    padding:5px 0;
+    width:100%;
+}
+.footer{
+    background-color:rgb(248, 248, 248);
+    padding-top: 50px;
+    width: 100%;
+    height: 20%;
+    flex-direction: column;
+}
+.footer ul{
+    display: flex;
+    gap:30px;
+    list-style: none;
+    justify-content: center;
+}
+.copyrgt{
+    margin-top: 20px;
+    text-align: center;
+}
+.blue{
+    color: blue;
+}
